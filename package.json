@@ -4,7 +4,7 @@
   "main": "cache-table-hash-mapping.js",
   "type": "commonjs",
   "scripts": {
-    "start:hash-map": "nodemon ./hash-map/index.js"
+    "start:hash-map": "node api.js && nodemon ./hash-map/index.js"
   },
   "author": "",
   "license": "ISC",
